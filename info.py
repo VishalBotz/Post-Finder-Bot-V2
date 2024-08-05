@@ -23,9 +23,9 @@ BOT_TOKEN    = environ.get("BOT_TOKEN", "")
 DATABASE_URI = environ.get("DATABASE_URI", "")
 LOG_CHANNEL  = int(environ.get("LOG_CHANNEL", "-1002167185904"))
 ADMIN        = int(environ.get("ADMIN", "1663603208")).split()
-CHANNEL      = environ.get("CHANNEL", "")
+CHANNEL      = environ.get("CHANNEL", "@WideAngleMedia")
 PICS         = environ.get('PICS', 'https://telegra.ph/file/288c886149072f44e080f.jpg https://telegra.ph/file/4ece835d581d2c4fef29e.jpg https://telegra.ph/file/b363ccae2b057dc029c5e.jpg https://telegra.ph/file/d38f165aaa36dc212d372.jpg').split()
-UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', '')
+UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', '@WideAngleMedia')
 # This code belongs to anmol0700,  
 # a passionate developer dedicated to  
 # creating innovative solutions and tools.  
