@@ -17,15 +17,15 @@
 import os
 from os import environ
 
-API_ID       = int(environ.get("API_ID", "19094598"))
-API_HASH     = environ.get("API_HASH", "479c00e863915ba2f8b90d8030ca4786")
+API_ID       = int(environ.get("API_ID", "24358501"))
+API_HASH     = environ.get("API_HASH", "fa51ce8876c215d8a76c98c755e6d2d3")
 BOT_TOKEN    = environ.get("BOT_TOKEN", "")
-DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://anmol:anmol@cluster0.eaq9icz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-LOG_CHANNEL  = int(environ.get("LOG_CHANNEL", "-1002114115777"))
-ADMIN        = int(environ.get("ADMIN", "1663603208"))
-CHANNEL      = environ.get("CHANNEL", "@Hara_Tg")
+DATABASE_URI = environ.get("DATABASE_URI", "")
+LOG_CHANNEL  = int(environ.get("LOG_CHANNEL", "-1002167185904"))
+ADMIN        = int(environ.get("ADMIN", "1663603208")).split()
+CHANNEL      = environ.get("CHANNEL", "")
 PICS         = environ.get('PICS', 'https://telegra.ph/file/288c886149072f44e080f.jpg https://telegra.ph/file/4ece835d581d2c4fef29e.jpg https://telegra.ph/file/b363ccae2b057dc029c5e.jpg https://telegra.ph/file/d38f165aaa36dc212d372.jpg').split()
-UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', '-1002128004223')
+UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', '')
 # This code belongs to anmol0700,  
 # a passionate developer dedicated to  
 # creating innovative solutions and tools.  
